@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <h1>random BLOG</h1>
+    <form id="blog-form">
+      <label for="blog-headline">Headline:</label><br />
+      <input type="text" id="blog-headline" name="blog-headline" /><br />
+      <label for="blog-description">Description:</label><br />
+      <input type="text" id="blog-description" name="blog-description" /><br />
+      <label for="blog-pic">Picture</label><br />
+      <input type="file" id="blog-pic" name="blog-pic" />
+      <br />
+      <button id="btn-post" type="submit" name="btn-post">POST</button>
+    </form>
+    <section>
+      <div class="post-1"></div>
+    </section>
+  </body>
+  <script type="text/javascript" src="app.js"></script>
+</html>
